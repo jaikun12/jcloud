@@ -1,0 +1,107 @@
+*{
+	margin:0 auto;
+	box-sizing:border-box;
+	padding:none;
+	font-family:'Open Sans';
+}
+
+body{
+	position:relative;
+}
+
+#intro{
+	width:100%;
+	height:100vh;
+	text-align:center;
+	display:table;
+}
+
+.cell{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#intro #logo{
+ 	margin:0 auto;
+ 	width: 250px;
+}
+
+#scroll-icon{
+	clear:right;
+	width:50px;
+	margin:40px;
+}
+
+#vision{
+	min-height:100vh;
+	width:80%;
+}
+
+#vision > .text{
+	padding:50px;
+	display:inline-block;
+	max-width:75%;
+	line-height:2;
+}
+
+.side-image{
+	display:inline-block;
+	height:100vh;
+	width:20%;
+	background: url(../images/lamps.jpg);
+	background-attachment:fixed;
+	background-size:40%;
+	background-repeat: no-repeat;
+}
+
+#others{
+	height:100vh;
+	width:100%;
+	background: url(../images/night.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	text-align:center;
+	padding:5%;
+	padding-top:15%;
+}
+
+#others .card{
+	width:33%;
+	padding:10px;
+	display:table-cell;
+	text-shadow:black 2px;
+	color:white;
+	vertical-align:middle;
+}
+
+#others .card h3{
+	margin-bottom:25px;
+}
+
+#others .card img{
+	width:220px;
+	height:200px;
+}
+
+#contact{
+	height:50vh;
+	width:100%;
+	
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer{
+	bottom:0;
+	height:40vh;
+	width:100%;
+	background: #08437F;
+	padding:25px;
+	padding-left:10%;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color:white;
+	font-weight:lighter;
+	line-height:2;
+}
+
+
+
